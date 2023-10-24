@@ -23,3 +23,5 @@ var typed = new typed(".auto-type", {
   backDelay: 500
 });
 /* AUTO TYPE JS END */
+
+
