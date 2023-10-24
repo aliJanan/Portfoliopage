@@ -14,12 +14,87 @@
 
 
 <body>
+    <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./images/ali-logo.jpeg" width="64" height="24" alt="Ali home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./images/ali-logo.jpeg" width="64" height="24" alt="Ali home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#pojectId" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#contactId" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+    
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
   
+
+  <!-- MAIN START -->
     <main>
         
         <article>
 
-          <div id="particles-js"></div>
+          <div id="particles-js">
+            <div class="hero-content">
+    
+              <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+                Freelance Web Designer & Developer
+              </h1>
+  
+              <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+                Hidear! <br>
+                I'm Ali Janan, <br>
+                I am into <span class="auto-type"></span>
+              </p>
+  
+            </div>
+          </div>
 
           <!-- HERO -->
           <section class="section hero" aria-label="home">
@@ -48,19 +123,11 @@
 
         </article>
       </main>
-
-
-
-
-     <link rel="stylesheet" type="text/css" href="styles.css">
-     <!-- Bootstrap -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!-- MAIN END -->
 </head>
+
+
 <body>
-    <h1>Hello World</h1>
-
-
-
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -71,6 +138,10 @@
     <script src="particles.js"></script>
     <script src="app.js"></script>
 
+    <!-- typed.js cdn -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 </body>
 </html>
