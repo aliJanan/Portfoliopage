@@ -369,8 +369,13 @@ background-size: cover;
   
   
 
-
+/* FOOTER START */
+.footer{
+  height: 80px;
+  background-color: #FFFFFF;
+}
   
+/* FOOTER END */
   
 
 
