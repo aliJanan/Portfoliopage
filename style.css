@@ -360,7 +360,7 @@ body.nav-active { overflow: hidden; }
 /* PARTICLES-JS START */
 #particles-js{
 width: 100%;
-height: 90vh;
+height: 75.5vh;
 background-image: url("./images/background-banner.png");
 background-repeat: no-repeat;
 background-size: cover;
@@ -377,6 +377,27 @@ background-size: cover;
   
 /* FOOTER END */
   
+
+
+.auto-write{
+
+position: absolute;
+top: 30%;
+left: 16%;
+}
+
+
+span{
+  color: red;
+  font-size: 45px;
+}
+
+
+
+
+
+
+
 
 
   /* MEDIA QUERIES */

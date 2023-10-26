@@ -14,14 +14,20 @@ window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 
 
-/* AUTO TYPE JS START */
-var typed = new typed(".auto-type", {
-  strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
-  loop: true,
-  typeSpeed: 50,
-  backSpeed: 25,
-  backDelay: 500
-});
-/* AUTO TYPE JS END */
+
+
+
+
+
+  /* AUTO TYPE JS START */
+  document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed(".auto-type", {
+      strings: ["Web Designer", "Frontend Developer", "Backend Developer", "UI/UX Designer"],
+      loop: true,
+      typeSpeed: 150,
+      backSpeed: 150
+    });
+  });
+  /* AUTO TYPE JS END */
 
 

@@ -26,7 +26,7 @@ particlesJS('particles-js',
       },
       "color": {
         /* change color*/
-        "value": ["#ffffff", "#ff0000", "#FFA500"]
+        "value": ["#0000ff", "#ff0000", "#FFA500"]
       },
       "shape": {
         "type": ["circle", "triangle"],
