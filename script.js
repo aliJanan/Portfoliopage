@@ -34,9 +34,25 @@ document.addEventListener("DOMContentLoaded", function() {
     strings: ["Web Designer", "Frontend Developer", "Backend Developer", "UI/UX Designer"],
     loop: true,
     typeSpeed: 150,
-    backSpeed: 150
+    backSpeed: 150, 
+    showCursor: false
   });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var typed = new Typed(".auto-typing", {
+    strings: ["Skills"],
+    loop: true,
+    typeSpeed: 150,
+    backSpeed: 150, 
+    showCursor: false
+  });
+});
+
 /* AUTO TYPE JS END */
+
+
 
 
