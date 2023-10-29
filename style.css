@@ -464,6 +464,7 @@ background-size: cover;
   border-radius: var(--radius-8);
   background-color: #dcdee1;
   padding: 3px;
+  height: auto;
 }
 
 .about-card:hover{
@@ -485,10 +486,46 @@ background-size: cover;
   border-radius: var(--radius-8);
   border: 1px solid lightgray; /* Gray border */
   padding: 5px; /* Some padding */
+  transition: transform 0.3s ease-in-out; /* Define the transition effect */
 }
 
 .image-developer:hover{
-  transform: scale(1.01);
+  /* transform: scale(1.01); */
+  transform: scale(1.1); /* Increase scale for hover effect */
+}
+
+
+
+
+
+/* Container for the grid */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: var(--radius-8);
+  background-color: #dcdee1;
+}
+
+/* Individual grid items */
+.grid-item {
+  display: flex;
+  flex-direction: row; /* Change to "row" to place text next to the image */
+  align-items: center;
+  margin: 50px; /* Add margin for spacing between items */
+}
+
+/* Style for images */
+.img_skills {
+  width: 100%; /* Make the images responsive */
+  max-width: 100px; /* Adjust the maximum width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for text */
+.h_skills {
+  text-align: center;
+  margin-left: 10px; /* Adjust left margin as needed */
 }
 /* ABOUT END */
 
