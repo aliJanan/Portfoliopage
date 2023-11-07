@@ -521,6 +521,7 @@ background-size: cover;
   width: 100%; /* Make the images responsive */
   max-width: 100px; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
+  width: 30%;
 }
 
 /* Style for text */
@@ -689,6 +690,11 @@ textarea.input-field {
     gap: 36px;
     margin-inline: auto;
   }
+
+  /* Add a rule to align the navbar-list to the right */
+.navbar-list.navbar-right {
+  text-align: right;
+}
 
   .navbar-link {
     color: var(--charcoal);
