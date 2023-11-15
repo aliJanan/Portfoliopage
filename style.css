@@ -320,6 +320,9 @@ body.nav-active {
   font-weight: var(--fw-700);
   padding-block: 6px;
 }
+.navbar-link:hover{
+transform: scale(1.2);
+}
 
 .contact-link { 
   transition: var(--transition-1); 
@@ -368,6 +371,8 @@ body.nav-active {
   margin-inline: auto;
 }
 
+
+
 .hero-banner .w-100 {
   mask-image: url("../images/Blob.svg");
   -webkit-mask-image: url("../images/Blog.svg");
@@ -377,6 +382,10 @@ body.nav-active {
   -webkit-mask-position: center;
   mask-size: auto;
   -webkit-mask-size: auto;
+}
+.w-100:hover {
+  transform: scale(1.1);
+
 }
 
 .hero-content { 
@@ -591,7 +600,6 @@ textarea.input-field {
 .footer{
   height: 80px;
   background-color: #FFFFFF;
-
 }
 
 .social-media{
@@ -638,7 +646,7 @@ textarea.input-field {
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #fa1501;
   color: white;
 }
 /* FOOTER END */
