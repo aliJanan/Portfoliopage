@@ -263,18 +263,15 @@ body.nav-active {
 
 .nav-open-btn {
   font-size: 3.5rem;
-  /* color: var(--gunmetal); */
-  color: blue;
+  color: var(--gunmetal);
 }
 
 .navbar {
   position: fixed;
   top: 0;
   left: -300px;
-  /* background-color: var(--raisin-black); */
-  background-color: green;
-  /* color: var(--white); */
-  color: yellow;
+  background-color: var(--raisin-black);
+  color: var(--white);
   max-width: 300px;
   width: 100%;
   height: 100vh;
