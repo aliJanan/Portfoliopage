@@ -36,7 +36,7 @@ Contact Information: Ways to get in touch with me, whether through email, Linked
 To run this website locally, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/aliJanan/Portfoliopage
 
 2. Open the project folder:
 cd your-portfolio
