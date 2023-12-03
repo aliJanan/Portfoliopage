@@ -36,16 +36,12 @@ Contact Information: Ways to get in touch with me, whether through email, Linked
 To run this website locally, follow these steps:
 
 1. Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/your-username/your-portfolio.git
-2. Open the project folder:
 
-bash
-Copy code
+2. Open the project folder:
 cd your-portfolio
-Open index.html in your preferred web browser.
+
+3. Open index.html in your preferred web browser.
 
 # Usage
 Feel free to explore the website and its various sections. If you have any feedback, questions, or suggestions, don't hesitate to reach out.
@@ -57,6 +53,6 @@ If you find any issues or have suggestions for improvements, please open an issu
 This project is licensed under the ... License.
 
 #Contact
-Email: your.email@example.com
+Email: ali.janan@gmail.com
 
 Thank you for visiting my portfolio!
