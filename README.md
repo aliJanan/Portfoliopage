@@ -18,10 +18,10 @@ This portfolio website serves as a digital showcase of my work, skills, and achi
 Visit my portfolio: YourPortfolioURL
 
 # Technologies Used
-HTML5
-CSS3
-JavaScript
-[Any other technologies or frameworks you've used]
+. HTML5
+. CSS3
+. JavaScript
+. [Any other technologies or frameworks you've used]
 
 # Features
 Responsive Design: The website is designed to be accessible and visually appealing on various devices and screen sizes.
