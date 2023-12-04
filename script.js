@@ -88,6 +88,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+/* ALERT CONTACT ME START */
+function showAlert(event) {
+  event.preventDefault(); // Prevent the form from submitting normally
 
+  // Display a simple alert
+  alert("Thank you for your contact!");
 
+  // Reset the form inputs
+  document.querySelector('.contact-form').reset();
+}
 
+/* ALERT CONTACT ME END */
