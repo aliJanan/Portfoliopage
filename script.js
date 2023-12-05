@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-/* ALERT CONTACT ME START */
+/* ALERT OF CONTACT ME START */
 function showAlert(event) {
   event.preventDefault(); // Prevent the form from submitting normally
 
@@ -99,4 +99,64 @@ function showAlert(event) {
   document.querySelector('.contact-form').reset();
 }
 
-/* ALERT CONTACT ME END */
+/* ALERT OF CONTACT ME END */
+
+
+
+/* CHART JS START*/
+const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Web Designer', 'Web Developer', 'Frontend Developer', 'UI/UX Designer'],
+      datasets: [{
+        label: 'My Confidence',
+        data: [95, 80, 85, 90],
+        backgroundColor: [
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 205, 86, 0.2)',
+          'rgba(54, 162, 235, 0.2)'
+        ],
+        borderColor: [
+          'rgba(75, 192, 192, 1)',
+          'rgba(255, 99, 132, 1)',
+          'rgba(255, 205, 86, 1)',
+          'rgba(54, 162, 235, 1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        },
+        x: {
+          ticks: {
+            font: {
+              size: 18 // Adjust the font size for x-axis labels
+            }
+          }
+        },
+        y: {
+          ticks: {
+            font: {
+              size: 16 // Adjust the font size for y-axis ticks
+            }
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          labels: {
+            font: {
+              size: 26 // Adjust the font size for legend
+            }
+          }
+        }
+      }
+    }
+  });
+  /* CHART JS END*/

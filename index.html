@@ -9,6 +9,8 @@
 
 
 
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -136,6 +138,7 @@
               <figure class="hero-banner">
                 <img src="./images/ali-profile.png" width="560" height="540" alt="Ali" class="w-100 banner-eff" data-reveal="top">
               </figure>
+              
     
             </div>
           </section>
@@ -225,7 +228,17 @@
               </div>
             </li>
 
-          </ul><br><br><br>
+          </ul><br><br>
+
+
+
+          <!-- CHART JS -->
+          <div class="container" style="width: 800px;">
+            <canvas id="myChart"></canvas>
+          </div><br><br>
+
+          
+
 
             <div class="auto-writing h3">
               <h2 class="h2 section-title" style="text-align: center; height: 30px;"><span class="auto-typing-skill"></span></h2>
@@ -323,11 +336,18 @@
                   <h2 class="h2 section-title">Contact Me</h2>
     
                   <p class="section-text">
-                    If you have any questions, suggestions, or just want to say hello, feel free to reach out to me. <br>
-                    For any inquiries or collaboration opportunities, I am very open so please contact me!
-                  </p><br>
+                    If you have any questions, suggestions, or just want to say hello, feel free to reach out to me. 
+                  </p>
                   <p>Mobile: 079 123 45 67</p>
-                  <p>Email: ali.janan@email.com</p>
+                  <p>Email: ali.janan@email.com</p><br>
+
+
+                  <div class="map">
+                    <div id="my-map-display" class="map-display">
+                      <iframe class="ifram" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Bern,+Switzerland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                      </iframe>
+                    </div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="auth-map-data"></a>
+                  </div>
     
                 </div>
     
@@ -344,6 +364,11 @@
               </div>
     
             </div><br><br>
+
+
+
+
+            
           </section>
           <!-- CONTACT END -->
 

@@ -366,6 +366,25 @@ transform: scale(1.2);
   position: relative;
   max-width: max-content;
   margin-inline: auto;
+  animation: waveAnimation 5s linear infinite; 
+}
+
+@keyframes waveAnimation {
+  0% {
+    transform: translateY(5);
+  }
+  50% {
+    transform: translateY(-60px); 
+  }
+  100% {
+    transform: translateY(10);
+  }
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 
@@ -589,7 +608,40 @@ textarea.input-field {
   max-height: 240px;
   resize: vertical;
 }
-/* CONTACT START */
+
+
+
+#my-map-display img{
+  max-width:none!important;
+  background:none!important;
+  font-size: inherit;
+  font-weight:inherit;
+  height:100%; width:100%;max-width:100%;}
+
+.ifram {
+  height:100%;
+  width:100%;
+  border: 1px solid lightgray; 
+  border-radius: 10px;
+}
+.map-display{
+  height:100%; 
+  width:100%;
+  max-width:100%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.map {
+  max-width:100%;
+  list-style:none; 
+  transition: none;
+  overflow:hidden;
+  width:500px;
+  height:350px;
+}
+/* CONTACT END */
 
 
 
