@@ -9,7 +9,6 @@ Features
 Installation
 Usage
 Contributing
-License
 Contact
 
 # Introduction
@@ -21,7 +20,7 @@ Visit my portfolio: YourPortfolioURL
 . HTML5
 . CSS3
 . JavaScript
-. [Any other technologies or frameworks you've used]
+. [Map, Chartjs, animation js]
 
 # Features
 Responsive Design: The website is designed to be accessible and visually appealing on various devices and screen sizes.
@@ -36,23 +35,22 @@ Contact Information: Ways to get in touch with me, whether through email, Linked
 To run this website locally, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/aliJanan/Portfoliopage
 
 2. Open the project folder:
 cd your-portfolio
 
 3. Open index.html in your preferred web browser.
 
+
 # Usage
 Feel free to explore the website and its various sections. If you have any feedback, questions, or suggestions, don't hesitate to reach out.
 
-#Contributing
+# Contributing
 If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Contributions are welcome and appreciated.
 
-#License
-This project is licensed under the ... License.
 
-#Contact
-Email: ali.janan@gmail.com
+# Contact
+Email: ali.janan@email.com
 
 Thank you for visiting my portfolio!

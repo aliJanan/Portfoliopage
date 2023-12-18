@@ -61,7 +61,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
 document.addEventListener("DOMContentLoaded", function () {
   var typed = new Typed(".auto-typing-skill", {
     strings: ["My Skills"],
@@ -85,9 +84,6 @@ document.addEventListener("DOMContentLoaded", function () {
 /* AUTO TYPE JS END */
 
 
-
-
-
 /* ALERT OF CONTACT ME START */
 function showAlert(event) {
   event.preventDefault(); // Prevent the form from submitting normally
@@ -98,9 +94,7 @@ function showAlert(event) {
   // Reset the form inputs
   document.querySelector('.contact-form').reset();
 }
-
 /* ALERT OF CONTACT ME END */
-
 
 
 /* CHART JS START*/
